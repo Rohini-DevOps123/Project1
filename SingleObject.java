@@ -2,7 +2,8 @@ public static SingleObject getInstance()
 {
 return instance;
 }
- public boolean max(int a, int b)
+ //without refactoring
+/*public boolean max(int a, int b)
  {
 if(a > b)
  {
@@ -13,6 +14,12 @@ return false;
 } else
  {
 return false;
+  
+}*/
+ //with refactoring
+ public boolean max(int a, int b)
+ {
+return a > b;
 }
 }
 }
