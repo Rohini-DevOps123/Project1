@@ -3,7 +3,7 @@ public static SingleObject getInstance()
 return instance;
 }
  //without refactoring
-/*public boolean max(int a, int b)
+/*public boolean max(int b, int a)
  {
 if(a > b)
  {
